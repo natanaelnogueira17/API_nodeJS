@@ -39,3 +39,7 @@ app.route('/id/:numeroid').get((req, res)=> res.send(req.params.numeroid))
 
 //queryParams  pegando informacoes pela query.
 app.route('/aqui').get((req, res)=>res.send(req.query))
+
+
+
+///
